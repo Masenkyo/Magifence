@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: -2168835326752957457}
   - component: {fileID: 3999447589045217479}
   - component: {fileID: -786948276325124914}
+  - component: {fileID: 5539438518678588198}
   m_Layer: 0
   m_Name: FireEnemy
   m_TagString: FireEnemy
@@ -159,3 +160,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cb16f95bf9eaacb4db458db168453ce0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &5539438518678588198
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3730740017661920816}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a1950fee6d5be224993591dbf0d218a4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hp: 50

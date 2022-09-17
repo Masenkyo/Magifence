@@ -2,10 +2,11 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
 
 public class HPGate : MonoBehaviour
 {
-    [SerializeField] private int hp = 100;
+    [SerializeField]public int hp = 100;
     void Start()
     {
         
@@ -14,6 +15,7 @@ public class HPGate : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        
         if (hp < 1)
         {
             GoToDead();
